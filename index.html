@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang='ar' dir="rtl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
+    <link rel="stylesheet"  href="style.css">
+
+    <title> Translate audio to text</title>
+  </head>
+  <body>
+<div class="voice_to_text">
+<h1>voice to text convert </h1>
+<textarea  id ="convert_text"></textarea>
+<button id= "click_to_convert"> start </button>
+<button class = "btn btn-danger btn-block" onclick="onConnectUsb()" id="connect-usb">
+    connect
+</button>
+</div>
+
+<script type="text/javascript" src="script.js"></script> <script src="arduino.js"></script>
+
+  </body>
+</html>
